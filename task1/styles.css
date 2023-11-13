@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(84, 84, 161);
+}
+
+/* .navbar{
+    display: flex;
+}
+
+nav ul{
+    display: flex; */
+    /* padding: 4px; */
+    /* position: relative;
+    left: 42vw;
+}
+
+nav ul li{
+    padding: 4px;
+    margin: 18px;
+    list-style: none;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(184, 141, 224);
+    border-radius: 12px;
+    color: white;
+} */
+
+#head1{
+    position: relative;
+    left: 36vw;
+    top: 20vh;
+}
+
+.calculator{
+    border: 4px solid black;
+    width: 40vw;
+    height: 72vh;
+    position: relative;
+    left: 30vw;
+    top: 13vh;
+    border-radius: 22px;
+    background-color: rgb(54, 54, 117);
+}
+
+#outputscreen{
+    position: relative;
+    width: 38vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 12px;
+    left: 1vw;
+    top: 2vh;
+    cursor: not-allowed;
+    /* align-items: center; */
+    text-align: center;
+    /* font-family: monospace; */
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(23, 23, 85);
+    color: white;
+}
+
+#cal{
+    border: 2px solid black;
+    position: relative;
+    width: 90%;
+    height: 80%;
+    left: 2vw;
+    top: 4vh;
+    border-radius: 10px;
+}
+
+#clr{
+    position: relative;
+    top: 4%;
+    left: 7.5%;
+    font-size: large;
+    font-weight: bold;
+    width: 85%;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(23, 23, 85);
+    color: white;
+}
+
+.a{
+    position: relative;
+    left: 3%;
+}
+
+.btn{
+    width: 70%;
+    height: 40%;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(23, 23, 85);
+    color: white;
+
+}
+
+#equal{
+    position: relative;
+    width: 470%;
+}
